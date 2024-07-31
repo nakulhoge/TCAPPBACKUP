@@ -1,0 +1,207 @@
+/* Login Styles and Register */
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.AdminUsers {
+  display: flex;
+  width: 337px;
+  height: 44px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 10px;
+}
+.material-symbols-outlined {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.mainWrapper {
+  display: flex;
+}
+.backimg {
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+  background-position: 45%;
+  width: 100%;
+}
+.icons {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  height: 30%;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.LoginSection {
+  width: 55%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 20%;
+  padding-bottom: 15%;
+}
+
+h2 {
+  margin-bottom: 20px;
+
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.LoginSection h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.form-label {
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-family: Poppins;
+}
+
+.form-check-input {
+  margin-right: 10px;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+p {
+  padding-top: 8px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p a {
+  text-decoration: none;
+  color: #000;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.forgotpass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-family: Poppins;
+}
+.forgotpass a {
+  text-decoration: none;
+  color: #000;
+}
+.loginimg {
+  margin-top: 20%;
+  margin-bottom: 30%;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+.admin-layout {
+  display: flex;
+}
+.content {
+  flex: 1;
+  padding: 30px;
+  overflow: auto;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sidebar {
+  width: 200px;
+  position: fixed;
+  background-color: #006180;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sidebar .logo {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.sidebar .nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .nav li {
+  display: flex;
+  width: 314px;
+  height: 55px;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 10px;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sidebar .nav a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+
+.sidebar .nav a:hover {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.logout-container {
+  margin-top: 280%;
+  margin-left: 55%;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: #1a1919;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  margin-left: -3.5rem;
+}
+
+.marginForleft {
+  margin-left: 12%;
+}

@@ -1,0 +1,94 @@
+/* AdminTaskToUser.css */
+
+
+  
+  .AdminTaskToUserForm {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px;
+    margin-bottom: 20px; */
+  }
+  
+  .AdminTaskToUserForm label {
+    font-weight: bold;
+    margin-bottom: -10px;
+  }
+  
+  .AdminTaskToUserForm select,
+  .AdminTaskToUserForm input,
+  .AdminTaskToUserForm textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 56%;
+    box-sizing: border-box;
+  }
+  
+  .AdminTaskToUserForm button {
+    width: 56%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AdminTaskToUserForm button:hover {
+    background-color: #0056b3;
+  }
+  .tableFixHead2 {
+    overflow: auto;
+  }
+  table.tableFixHead2 thead th {
+    position: sticky;
+    
+    top: -21px !important;
+    padding-top: 0px;
+   
+    
+    margin: 0px;
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #dae4ef !important
+
+  }
+  
+  table td select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .material-symbols-outlined {
+    cursor: pointer;
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    .AdminTaskToUserForm {
+      gap: 10px;
+    }
+  
+    table th,
+    table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

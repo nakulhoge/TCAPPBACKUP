@@ -1,0 +1,72 @@
+.profile {
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: #fff;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .profile-img-adj {
+    display: flex;
+    align-items: end;
+  }
+  
+  .circle-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .initials-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .profile-info {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-info h2 {
+    color: #2e2b2b;
+    font-weight: bold;
+    
+  }
+  
+  .profile-info h5 {
+    color: #999292;
+    font-size: large;
+  }
+  
+  .btn1 {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: #1a1919;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -3.5rem;
+  }

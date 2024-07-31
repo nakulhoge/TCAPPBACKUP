@@ -1,0 +1,17 @@
+/* TaskToUser.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f8f9fa;
+  }
+  
